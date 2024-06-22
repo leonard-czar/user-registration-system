@@ -1,0 +1,102 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f9f9f9;
+  padding: 20px;
+}
+
+form {
+  max-width: 400px;
+  margin: 0 auto;
+  background-color: #fff;
+  padding: 20px;
+  padding-right: 40px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+label {
+  display: block;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+input[type="submit"] {
+  background-color: #337ab7;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  background-color: #23527c;
+}
+
+h1 {
+  color: #337ab7;
+}
+
+p {
+  font-size: 16px;
+  color: #333;
+}
+
+#passwordToggle {
+  background-color: #337ab7;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+#passwordToggle:hover {
+  color: #333;
+}
+
+#passwordToggle.active {
+  color: #333;
+}
+
+#password {
+  font-size: 16px;
+  font-weight: bold;
+  color: #333;
+}
+
+#success {
+  color: green;
+}
+
+.errors  {
+  color: red;
+  font-size: small;
+}
+
+.body h1 {
+  color: #d9534f;
+}
+
+.body, .confirm{
+  text-align: center;
+}
+
+ul{
+ list-style-position: inside;
+ color: red;
+}
+
+
+
+
