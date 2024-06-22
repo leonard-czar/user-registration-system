@@ -1,1 +1,1 @@
-A user registration system with PHP OOP and Smarty template engine. The system should allow users to input their information, validate the data, and display a confirmation message.
+The user registration system was successfully developed using PHP OOP and Smarty template engine. The system validates user input data, creates a new user, and displays a confirmation message with the user's entered information. The system is modular, reusable, and follows best practices for error handling and validation.
