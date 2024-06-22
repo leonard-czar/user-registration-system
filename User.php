@@ -19,7 +19,11 @@ class User
         $this->username = $username;
         $this->email = $email;
         $this->password = $password;
-        $this->dbconnect = new mysqli(DB_HOST, DB_USERNAME, DB_PASSWORD, DB_DATABASE_NAME);
+        if (!empty(DB_DATABASE_NAME)) {
+            
+            $this->dbconnect = new mysqli(DB_HOST, DB_USERNAME, DB_PASSWORD, DB_DATABASE_NAME);
+        }
+
     }
 
 
