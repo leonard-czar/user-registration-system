@@ -20,6 +20,8 @@
             </ul>
         {/foreach}
     </div>
+
+<div class="margin"><a href="/registeration-form.php">Back</a></div>
 </body>
 
 </html>

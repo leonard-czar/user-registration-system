@@ -29,7 +29,7 @@
     </p> *}
 <p> Password: <span id="password">{$password}</span> <button id="passwordToggle">Show</button> </p>
 
-   
+<div class="margin"><a href="/registeration-form.php">Back</a></div>
        
 </script>
 </body>
